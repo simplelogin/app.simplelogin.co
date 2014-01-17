@@ -1,0 +1,196 @@
+html, body { height: 100%; }
+
+body {
+  background: #eee url(../img/bg_login.png) repeat;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+body, input, button {
+  -webkit-font-smoothing: antialiased;
+  -webkit-transition: -webkit-filter .5s;
+  text-rendering: optimizelegibility;
+}
+
+input {
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  -o-user-select: text;
+  user-select: text;
+}
+
+hr { border-top: 1px solid #DDD; }
+
+::selection, ::-moz-selection { background: #eaeaea }
+
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#boot {
+  left: 50%;
+  margin-left: -120px;
+  margin-top: -30px;
+  position: relative;
+  text-align: center;
+  top: 50%;
+  width: 240px;
+}
+
+#login {
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+.form-signin,.form-signup,.form-forgot{background-color:#fff;border:4px solid #fcfcfc;-webkit-box-shadow:0 1px 1px rgba(0,0,0,0.2);-moz-box-shadow:0 1px 1px rgba(0,0,0,0.2);-ms-box-shadow:0 1px 1px rgba(0,0,0,0.2);-o-box-shadow:0 1px 1px rgba(0,0,0,0.2);box-shadow:0 1px 1px rgba(0,0,0,0.2);margin:0 auto 20px;max-width:335px;padding:20px}
+.form-heading{margin-bottom:10px;text-align:center}
+
+#app {
+  display: none;
+  height: auto !important;
+  height: 100%;
+  min-height: 100%;
+  margin: 0 auto -60px;
+}
+
+#header { margin-bottom: 10px; }
+#header .navbar-inner {
+  background: #2980B9;
+  color: #fff;
+  border: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+#header .brand { padding: 10px; }
+#header .brand img { height: 30px; }
+
+.navbar .nav>li>a {
+color: #f5f5f5;
+padding: 15px;
+text-decoration: none;
+text-shadow: none;
+}
+.navbar .nav>li>a:focus, .navbar .nav>li>a:hover {
+  background-color: transparent;
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar .nav>li {
+  border-left: 1px solid rgba(255,255,255,.2);
+  border-right: 1px solid rgba(0,0,0,.15);
+}
+.navbar .nav>li:first-child { border-left: none; }
+.navbar .nav>li:last-child { border-right: none; }
+
+.navbar .nav li.dropdown.open>.dropdown-toggle, .navbar .nav li.dropdown.active>.dropdown-toggle, .navbar .nav li.dropdown.open.active>.dropdown-toggle {
+  background-color: #3498DB;
+  color: #f5f5f5;
+  text-shadow: none;
+}
+.navbar .nav li.dropdown>.dropdown-toggle .caret, .navbar .nav li.dropdown.open>.dropdown-toggle .caret, .navbar .nav li.dropdown.active>.dropdown-toggle .caret, .navbar .nav li.dropdown.open.active>.dropdown-toggle .caret {
+  border-top-color: #f5f5f5;
+  border-bottom-color: #f5f5f5;
+}
+.navbar .nav li.dropdown>a:hover .caret, .navbar .nav li.dropdown>a:focus .caret {
+  border-bottom-color: #fff;
+  border-top-color: #fff;
+}
+#content .container, #content .container-fluid { padding-bottom: 80px; }
+
+/* Modal */
+.modal h3 { color: #2980B9; }
+
+/* List */
+#list .toolbar h3 { margin: 0; }
+#list table h4 { cursor: pointer; }
+#list table h4.item { margin-left: 30px; }
+/*#list table h4.favorited { color: #E74C3C; }*/
+#list table h4.favorited { color: #F39C12; }
+#list table h4 small { font-weight: normal; }
+#groupOptions { left: -29px; }
+#no-items {
+  text-align: center;
+  text-shadow: 1px 1px 1px #fff;
+}
+
+/* Footer */
+#footer {
+  background-color: #333;
+  color: #f5f5f5;
+  height: 60px;
+  line-height: 60px;
+}
+#footer a {
+  color: #f5f5f5;
+  text-decoration: none;
+}
+#footer a:hover { text-decoration: underline; }
+
+/* Home */
+.credential-groups {
+  margin: 60px auto;
+  padding-bottom: 0!important;
+}
+.credential-groups .row .span3 { margin-bottom: 20px; }
+#btn-new-group { opacity: .5; }
+#btn-new-group:hover { opacity: 1; }
+
+.tile {
+  text-align: center;
+  background-color: #fff;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  padding: 20px 14px;
+}
+.tile i { font-size: 40px; }
+.tile-title {
+  margin: 15px 0 0 0;
+  font-weight: normal;
+}
+
+.tile:hover { cursor: pointer; }
+
+span#credential-clipboard { margin-left: 20px; }
+
+/* Upgrade */
+#upgrade .alert-info {
+  font-size: 16px;
+  line-height: 32px;
+}
+#upgrade .thumbnail {
+  background-color: #fff;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+#goPro .modal-body > div { line-height: 50px; }
+#goPro i.icon-circle-arrow-up {
+  color: #27AE60;
+  font-size: 50px;
+}
+
+/* Settings */
+.btn-storages button > i {
+  background-image: url('../img/storages-sprite.png');
+  float: left;
+  height: 20px;
+  margin-right: 4px;
+  width: 20px;
+}
+.storages-skydrive { background-position: 140px center; }
+.storages-dropbox { background-position: 120px center; }
+.storages-gdrive { background-position: 100px center; }
+.storages-box { background-position: 80px center; }
+.storages-sugarsync { background-position: 60px center; }
+.storages-ubuntuone { background-position: 40px center; }
+.storages-mediafire { background-position: 20px center; }
+.storages-simplelogin { background-position: 0 0; }
