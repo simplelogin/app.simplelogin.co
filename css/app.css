@@ -76,6 +76,12 @@ hr { border-top: 1px solid #DDD; }
 #header .navbar-brand { padding: 10px; }
 #header .navbar-brand img { height: 30px; }
 
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus { background-color: #fff; }
+.navbar-default .navbar-toggle { border-color: #ddd; }
+.navbar-default .navbar-toggle .icon-bar { background-color: #fff; }
+.navbar-default .navbar-toggle:hover .icon-bar { background-color: #2980B9; }
+
 .navbar .nav>li>a {
 color: #f5f5f5;
 padding: 15px;
