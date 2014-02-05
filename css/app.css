@@ -51,6 +51,12 @@ hr { border-top: 1px solid #DDD; }
 .form-signin,.form-signup,.form-forgot{background-color:#fff;border:4px solid #fcfcfc;-webkit-box-shadow:0 1px 1px rgba(0,0,0,0.2);-moz-box-shadow:0 1px 1px rgba(0,0,0,0.2);-ms-box-shadow:0 1px 1px rgba(0,0,0,0.2);-o-box-shadow:0 1px 1px rgba(0,0,0,0.2);box-shadow:0 1px 1px rgba(0,0,0,0.2);margin:0 auto 20px;max-width:335px;padding:20px}
 .form-heading{margin-bottom:10px;text-align:center}
 
+#login .sr-only {
+  font-weight: bold;
+  position: relative;
+}
+
+/* App */
 #app {
   display: none;
   height: auto !important;
